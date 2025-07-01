@@ -196,13 +196,13 @@ window.onload = function () {
       col.classList.add("col-6", "col-md-4", "col-lg-3", "mb-4");
 
 
-      // Crear la tarjeta del Pokémon
+    
       const card = document.createElement("div");
       card.className = "card h-100 shadow-sm";
       card.style.cursor = "pointer";
 
 
-      // Contenido de la tarjeta
+     
       card.innerHTML = `
       <img src="${pokemon.imagen}" class= "card-img-top mx-auto mt-3" style="width :100px; height: 100px;">
       <div class="card-body text-center">
@@ -295,4 +295,4 @@ function filtrarYBuscar() {
 llenarTipos();
 mostrarPokemones(pokemones);
 };
-//7-Estilizar una tarjeta con CSS.
+
