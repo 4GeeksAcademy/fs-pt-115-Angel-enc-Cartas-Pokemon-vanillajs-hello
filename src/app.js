@@ -1,4 +1,5 @@
 
+
 window.onload = function () {
   //write your code here
   const pokemones = [
@@ -295,4 +296,3 @@ function filtrarYBuscar() {
 llenarTipos();
 mostrarPokemones(pokemones);
 };
-

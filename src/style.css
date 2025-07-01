@@ -4,6 +4,73 @@ body {
   background: white;
 }
 
+.mt-5{
+  color: #27ae60;
+  background-color: #8e44ad;
+  font-size: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+::placeholder{
+
+  color  : black !important;
+}
+
+.form-control{
+  background-color: #00c1b2;
+}
+
+.form-select{
+  background-color: #00c1b2;
+}
+
+.card{
+    border:none;
+    border-radius: 12px;
+    background:linear-gradient(to bottom, #ffffff, #e0e0e0);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card-body{
+    padding-top: 10px;
+}
+
+.card-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    color:#555;
+
+}
+
+#pokemonContainer{
+    margin-top: 20px;
+}
+
+#searchInput,
+#filterType{
+    margin-bottom: 20px;
+}
+
 .modal-content.fuego {
   border: 4px solid #e74c3c;
   background-color: #fdecea;

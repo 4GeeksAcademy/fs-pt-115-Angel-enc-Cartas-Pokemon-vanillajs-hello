@@ -18,64 +18,23 @@
   rel="stylesheet"
 />
 <link rel="stylesheet" href="style.css" />
-    <style>
-body{
-    background: white;
-    font-family: Arial,sans-serif;
-}
-.card{
-    border:none;
-    border-radius: 12px;
-    background:linear-gradient(to bottom, #ffffff, #e0e0e0);
-    transition: transform 0.2s;
-}
-.card:hover {
-    transform: scale(1.06);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-}
-.card-img-top {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    background-color: #f2f2f2;
-    border-radius: 50%;
-    padding: 10px;
-}
-.card-body{
-    padding-top: 10px;
-}
-.card-title{
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #333;
-}
-.card-text{
-    font-size: 0.9rem;
-    color:#555;
 
-}
-#pokemonContainer{
-    margin-top: 20px;
-}
-#searchInput,
-#filterType{
-    margin-bottom: 20px;
-}
-</style>
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
     <div class="container-fluid text-center">
       <h1 class="mt-5">Pokemon Cards</h1>
       <div class="justify-content-center my-4">
+        <div class="row d-flex justify-content-end">
         <div class="col-md-3">
           <input id="searchInput" type="text" class="form-control" placeholder="Búsqueda por nombre..."/>
         </div>
         <div class="col-md-3">
-          <select id="filterType" class="form-control">
+          <select class="form-select" id="filterType" class="form-control">
             <option value="">Todos los tipos</option>
           </select>
           </div>
+        
           <div id="pokemonContainer" class="row justify-content-center"></div>
         </div>
     </div>
